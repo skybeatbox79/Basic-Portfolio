@@ -15,65 +15,78 @@ body {
 .top {
     background-color: #ffffff;
     border-bottom: solid 3px #cccccc;
-    width: 100%;
+    max-width: 100%;
     height:68px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #header{
     background-color: #4aaaa5;
     color: white;
-    height: 68px;
-    line-height: 68px;
-    float: left;
+    position: absolute;
+    height: auto;
     width: 150px;
-    margin-left: 278px;
+    line-height: 68px;
+    margin-left: 25%;
+    margin-right: 35%;
+    order: -1;
 }
 
 #about{
-    float: left;
-    width: 5%;
-    margin-left: 40%;
-    position: relative;
-    top: 30%;
+    /* max-width: 100%; */
+    /* margin-left: 45.7%; */
+    line-height: 2px;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+    padding: 10px;
     border-right: solid 1px #cccccc;
+    order: 0;
+    float: left;
 }
 
 #portfolio {
-    float: left;
-    width: 5%;
-    position: relative;
-    top: 30%;
+    max-width: 100%;
+    margin-left: 49%;
+    line-height: 2px;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+    padding: 10px;
     border-right: solid 1px #cccccc;
-
+    /* order: 1; */
+    float: left;
 }
 
 #contact {
-    float: left;
-    width: 5%;
-    position: relative;
-    top: 30%;
+    max-width: 100%;
+    margin-left: 53.1%;
+    line-height: 2px;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+    padding: 10px;
+    border-right: solid 1px #cccccc;
+    order: 2;
 }
 
 .bottom {
     background-image: url("../images/image2.png");
     height: 540px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 #contentbox {
     background-color: #ffffff;
-    width: 898px;
+    max-width: 898px;
     height: 370px;
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
     top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25%;
     border: solid 1px #dddddd;
 }
 
@@ -106,4 +119,15 @@ body {
     border-top: solid 5px #4aaaa5;
     line-height: 84px;
     font-size: 12px;
+}
+
+@media screen and (max-width: 699px) {    
+    .bottom {
+        width: 100%;
+    }
+
+    #contentbox {
+        width: 50%;
+        margin: auto;
+    }
 }
