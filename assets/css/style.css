@@ -27,8 +27,8 @@ header {
 
 #header_name{
     background-color: #4aaaa5;
-    color: white;
-    width: 150px;
+    color: #ffffff;
+    width: 180px;
     line-height: 68px;
     margin-right: 0;
     float: left;
@@ -37,7 +37,6 @@ header {
 nav {
   font-size: 2em;
   line-height: 60px;
-  margin-right: 60px;
   float: right;
 }
 
@@ -59,22 +58,20 @@ li {
   border-right: 1px solid #cccccc;
   padding-right: 10px;
 }
-/*done*/
 
 .bottom {
     background-image: url("../images/image2.png");
     height: 540px;
-    /* margin: auto; */
 }
 
 #contentbox {
     background-color: #ffffff;
-    width: 900px;
+    width: 898px;
     height: 370px;
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
-    top: 50px;
+    top: 40px;
     margin: 0 auto;
     border: solid 1px #dddddd;
 }
@@ -85,18 +82,18 @@ li {
     padding-bottom: 20px;
     border-bottom: solid 3px #cccccc;
     text-align: left;
+    width: 900px;
 }
 
 #my-image {
     width: 200px;
     height: 160px;
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 #p {
     margin-top: 20px;
-    /* float: left; */
 }
 
 #footer {
@@ -107,4 +104,78 @@ li {
     border-top: solid 5px #4aaaa5;
     line-height: 84px;
     font-size: 12px;
+}
+
+/* contact.html */
+.bottom-c {
+    background-image: url("../images/image2.png");
+    height: 780px;
+}
+
+#contact {
+    color: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 3px #cccccc;
+    text-align: left;
+}
+
+#contentbox-c {
+    background-color: #ffffff;
+    width: 898px;
+    height: 560px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    border: solid 1px #dddddd;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+#contact {
+    width: 900px;
+}
+
+#contact-form {
+    margin-top: 20px;
+    width: 888px;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    display: block;
+    height: 30px;
+    border: solid 1px #dddddd;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 0 none;
 }
