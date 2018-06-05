@@ -78,6 +78,10 @@ li {
     min-height: calc(100vh - 70px);
 }
 
+a {
+    text-decoration: none;
+}
+
 /* index.html */
 #bottom {
     background-image: url("../images/image2.png");
@@ -140,6 +144,7 @@ li {
     padding-bottom: 20px;
     border-bottom: solid 3px #cccccc;
     text-align: left;
+    width: 900px;
 }
 
 li {
@@ -148,10 +153,6 @@ li {
 
 ul {
     margin-bottom: 20px;
-}
-
-#contact {
-    width: 900px;
 }
 
 #contact-form {
@@ -219,6 +220,7 @@ input[type="submit"]:hover {
     padding-bottom: 20px;
     border-bottom: solid 3px #cccccc;
     text-align: left;
+    width: 900px;
 }
 
 .row {
