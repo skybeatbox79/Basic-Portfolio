@@ -6,6 +6,8 @@
 /* index.html, contact.html, portfolio.html */
 h1 {
     font-family: "Georgia", "Times", "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 body {
@@ -118,6 +120,10 @@ a {
 
 #p {
     margin-top: 20px;
+}
+
+p {
+    padding-bottom: 5px;
 }
 
 /* contact.html */
