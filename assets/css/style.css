@@ -246,7 +246,7 @@ input[type="submit"]:hover {
     margin-right: 30px;
 }
 
-img {
+.row img {
     width: 300px;
     height: 200px;
     margin-right: 30px;
